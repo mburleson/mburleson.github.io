@@ -15,6 +15,7 @@ p {
   font-weight: 400;
   font-size: 1em;
   color: hsl(220, 15%, 55%);
+  margin-bottom: 20px;
 }
 
 .box {
@@ -27,7 +28,7 @@ p {
   background: hsl(0, 0%, 100%);
   padding:20px;
   border-radius: 10px;
-  margin: 100px auto auto;
+  margin: 150px auto auto;
   box-shadow: 1px 1px 15px hsl(220deg 15% 55%);
 }
 

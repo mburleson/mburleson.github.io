@@ -7,13 +7,14 @@ h1 {
   font-family: 'Outfit', sans-serif;
   font-weight: 700;
   margin-bottom: 10px;
-  
+  font-size:1.5em;
 }
 
 p {
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1em;
+  color: hsl(220, 15%, 55%);
 }
 
 .box {
@@ -27,11 +28,12 @@ p {
   padding:20px;
   border-radius: 10px;
   margin: 100px auto auto;
+  box-shadow: 1px 1px 15px hsl(220deg 15% 55%);
 }
 
 .box div img {
   flex:285px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 footer {

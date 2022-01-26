@@ -1,0 +1,44 @@
+body {
+  background: hsl(212, 45%, 89%);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.box {
+  display: flex;
+}
+
+.box div {
+  width: 320px;
+  height: auto;
+  background: hsl(0, 0%, 100%);
+  padding:20px;
+  border-radius: 10px;
+  margin: 100px auto auto;
+}
+
+.box div img {
+  flex:285px;
+  margin-bottom: 25px;
+}
+
+footer {
+  bottom:0;
+  padding-top: 20px;
+}
+
+footer.attribution {
+  font-size: .5rem;
+}

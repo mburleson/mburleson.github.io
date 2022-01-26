@@ -28,14 +28,14 @@ p {
   height: auto;
   background: hsl(0, 0%, 100%);
   padding:20px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 150px auto auto;
   box-shadow: 1px 1px 25px hsl(220, 15%, 55%);
 }
 
 .box div img {
   flex:285px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 footer {

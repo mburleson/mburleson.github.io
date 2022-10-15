@@ -6,8 +6,9 @@ let lockBoard = false;
 let firstCard, secondCard;
 
 function flipCard() {
-  //if this is the first card to be flipped
+  // lockboard so two sets of cards cannot be flipped at the same time
   if (lockBoard) return;
+    //if this is the first card to be flipped
   if (this === firstCard) return;
 
   //flip the card when clicked, a flip class (animation) will be added to the first card
@@ -29,17 +30,23 @@ function flipCard() {
 }
 
 function checkForMatch() {
-  //if the first card and second card are the same
-  if (firstCard.dataset.framework === secondCard.dataset.framework) {
+  //if the first card and second card are the same, they are a match! Count how many cards are flipped.
+  if (firstCard.dataset.framework === secondCard.dataset.framework) {  
     disableCards();
-    let cardsFlipped = document.getElementsByClassName('memory-card flip').length;
-    if(cardsFlipped === 8) {
-      winMessage();
-    }
+    countCards();
     return;
   }
   //reset the cards, they are not a match
   unflipCards();
+}
+
+//Count how many cards are flipped. If 8 are flipped, you win the game! If not, keep playing.
+function countCards() {
+  let cardsFlipped = document.getElementsByClassName('memory-card flip').length;
+  if(cardsFlipped === 8) {
+    setTimeout(() => {
+    winMessage();
+    }, 1000)};
 }
 
 //make the cards unable to be flipped again, because they are a match! Keep flip class.

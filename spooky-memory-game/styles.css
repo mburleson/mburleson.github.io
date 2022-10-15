@@ -50,3 +50,16 @@ body {
 .front-face {
   transform: rotateY(180deg);
 }
+
+#you-win {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 160px;
+  left: 270px;
+  z-index: 999;
+}
+
+.hidden {
+  display: none;
+}

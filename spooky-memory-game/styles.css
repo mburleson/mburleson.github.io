@@ -28,6 +28,18 @@ header {
   margin:25px auto;
 }
 
+footer {
+  display: flex;
+  background-color: #93278F;
+  font-family: quicksand;
+  color:#ffffff;
+  padding: 25px 20px;
+}
+
+footer a {
+  color:#ffffff;
+  text-decoration: none;
+}
 h1 {
   color: #ffffff;
   font-family: genty;

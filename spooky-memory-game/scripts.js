@@ -81,7 +81,6 @@ function resetBoard() {
   });
 })();
 
-
 function winMessage(){
   var element = document.getElementById("you-win");
   element.classList.remove("hidden");

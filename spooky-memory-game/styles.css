@@ -91,6 +91,20 @@ h2 {
   z-index: 999;
 }
 
+.pop{
+  animation: pop 0.3s linear 1;
+}
+
+@keyframes pop{
+  50%  {transform: scale(1.2);}
+}
+
 .hidden {
   display: none;
+}
+
+@media (min-width: 390px) and (max-width: 810px){
+  .memory-game {
+    width:320px;
+  }
 }

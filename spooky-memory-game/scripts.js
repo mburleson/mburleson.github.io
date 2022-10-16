@@ -85,6 +85,9 @@ function resetBoard() {
 function winMessage(){
   var element = document.getElementById("you-win");
   element.classList.remove("hidden");
+  setTimeout(() => {
+  element.classList.add("pop");
+  }, 100);
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));

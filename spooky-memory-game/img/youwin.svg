@@ -111,8 +111,8 @@
         </g>
       </g>
     </g>
-    <text id="You" transform="translate(147 89)" fill="#fff" font-size="71" font-family="GentyDemo-Regular, Genty Demo"><tspan x="-61.628" y="0">You</tspan></text>
-    <text id="win_" data-name="win!" transform="translate(153 257)" fill="#fff" font-size="79" font-family="GentyDemo-Regular, Genty Demo"><tspan x="-68.019" y="0">win!</tspan></text>
+    <text id="You" transform="translate(147 89)" fill="#fff" font-size="71" font-family="genty"><tspan x="-61.628" y="0">You</tspan></text>
+    <text id="win_" data-name="win!" transform="translate(153 257)" fill="#fff" font-size="79" font-family="genty"><tspan x="-68.019" y="0">win!</tspan></text>
     <g id="Artwork_26" data-name="Artwork 26" transform="translate(149 148)">
       <g id="Group_1174" data-name="Group 1174" transform="translate(-126.487 -51.836)">
         <g id="Artwork_11" data-name="Artwork 11" transform="translate(0 0)">

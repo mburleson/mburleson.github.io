@@ -4,10 +4,41 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: genty;
+  src: url("fonts/genty/GentyDemo-Regular.ttf");
+}
+
+@font-face {
+  font-family: quicksand;
+  src: url("fonts/quicksand/Quicksand-SemiBold.ttf");
+}
+
 body {
   height: 90vh;
   display: flex;
+  flex-direction: column;
   background: #000000;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin:25px auto;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: genty;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #6dc941;
+  font-family: quicksand;
+  font-size: 2rem;
+  line-height: 10px;
 }
 
 .memory-game {

@@ -94,18 +94,38 @@ h2 {
   transform: rotateY(180deg);
 }
 
-#you-win {
-  width: 300px;
-  height: 300px;
+#you-win{
   position: absolute;
-  top: 160px;
-  left: 270px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
   z-index: 999;
+  text-align: center;
+  width:320px;
+}
+
+#you-win h2 {
+  text-align: center;
+}
+
+#you-win p{
+  text-align: center;
+}
+
+
+.emburlogo{
+  text-align: center;
+  width:90%;
+}
+
+#mc_embed_signup{background:#fff; border:2px solid #6dc941;font:14px Helvetica,Arial,sans-serif; width: 320px; border-radius: 10px; padding: 10px 0;
 }
 
 .pop{
   animation: pop 0.3s linear 1;
 }
+
 
 @keyframes pop{
   50%  {transform: scale(1.2);}
@@ -114,6 +134,7 @@ h2 {
 .hidden {
   display: none;
 }
+
 
 @media (min-width: 390px) and (max-width: 810px){
   .memory-game {

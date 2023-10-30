@@ -44,8 +44,9 @@ function checkForMatch() {
 function countCards() {
   let cardsFlipped = document.getElementsByClassName('memory-card flip').length;
   if(cardsFlipped === 8) {
-    setTimeout(() => {
+    setTimeout(() => { 
     winMessage();
+    dimBg();
     }, 1000)};
 }
 
@@ -87,6 +88,13 @@ function winMessage(){
   setTimeout(() => {
   element.classList.add("pop");
   }, 100);
+}
+
+function dimBg(){
+  var element = document.getElementsByTagName(body);
+  setTimeout(() => {
+    element.classList.add("dimbg");
+    }, 100);
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));

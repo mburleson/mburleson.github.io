@@ -21,6 +21,11 @@ body {
   background: #000000;
 }
 
+.dimbg{
+ 
+
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -102,7 +107,6 @@ h2 {
   margin-right: auto; 
   z-index: 999;
   text-align: center;
-  width:320px;
 }
 
 #you-win h2 {
@@ -119,11 +123,16 @@ h2 {
   width:90%;
 }
 
-#mc_embed_signup{background:#fff; border:2px solid #6dc941;font:14px Helvetica,Arial,sans-serif; width: 320px; border-radius: 10px; padding: 10px 0;
+#mc_embed_signup{left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  background:#fff; border:2px solid #6dc941;font:14px Helvetica,Arial,sans-serif; width: 320px; border-radius: 10px; padding: 10px 0;
 }
 
 .pop{
   animation: pop 0.3s linear 1;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -134,6 +143,7 @@ h2 {
 .hidden {
   display: none;
 }
+
 
 
 @media (min-width: 390px) and (max-width: 810px){
